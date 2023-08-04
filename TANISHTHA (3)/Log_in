@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>assignment 4</title>
+	<link rel="stylesheet" type="text/css" href="C:/Users/LENOVO/Desktop/internship/signup.html">
+   <style type="text/css">
+   	.main_div{
+   		width: 100%;
+   		height: 700px;
+   	}
+   	.first{
+   		width: 50%;
+   		height:700px;
+   		float: left;
+   	}
+   	.first img{
+   		width: 100%;
+   		height: 700px;
+   		background: green;
+   	}
+    .first1{
+        width:80% ;
+        height: 80px;
+        transform: translate(10%,-500%);
+        text-align: center;
+        color: whitesmoke;
+    }
+    
+    .second input{
+    	  width: 30%;
+    	  height: 45px;
+    	  margin-left: 90px;
+
+    } 
+    button{
+    	width: 30%;
+    	height:45px;
+        border-radius: 2px;
+    	background: green;
+    	color: white;
+    	text-align: center;
+    	margin-left: 90px;
+    	margin-top: 20px;
+    }
+    .Log_In{
+        margin-left:20px ;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .sign_up{
+          margin-left:80px;
+          margin-top:10px;
+          text-align: center;
+    }
+
+   </style>
+</head>
+<body>
+	<div class="main_div">
+ <div class="first">
+ 	<img src="image/yoga2.jfif">
+ 	<div class="first1">
+ 		<h1>WELCOME BACK</h1><br>
+        <p>We are glad to see you again! Discover,collect,and sell<br>
+        extraordinary NFT's by millions worldwide</p>
+ 	</div>
+ </div>
+ <div class="Log_In" ><h1><b>Log In</b></h1></div><br>
+ 	<form class="second" >
+ 		<label style="margin-left:90px;">Email Address</label><br>
+ 		<input   type="text" name="" placeholder="Enter Your Email"><br>
+ 		<label  style="margin-left:90px;">PASSWORD</label><br>
+ 		<input  type="text" name="" placeholder="Enter Password"><br>
+ 	</form>
+ 	<form>
+ 		<label style="margin-left:90px; margin-top:20px;">
+ 			<input type="checkbox" name="">Remember Me 
+ 		</label>
+ 		<label style="hover:red; margin-left:200px; margin-top:20px ;">
+ 			<a href="#">Forgot Password?</a>
+ 		</label><br>
+       <button class="button">Login</button>
+       <h4 class="sign_up">Don't have an account?<a href="C:/Users/LENOVO/Desktop/internship/sign up.html">sign up</a></h4>
+  </form>
+ </div>
+</body>
+</html>
